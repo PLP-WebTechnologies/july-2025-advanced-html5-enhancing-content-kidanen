@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase Page -Lists, Tables, Media and FORM</title>
+</head>
+<body>
+    <header>
+        <h1>Web Page Showcase</h1>
+        <p>Demonistrating, Lists, Tables,  Media & Form</p>
+    </header>
+
+    <nav>
+        <a href="#lists"> Lists</a>
+        <a href="#tables">Tables</a>
+        <a href="#media">Media</a>
+        <a href="form">Form</a>
+    </nav>
+
+    <hr>
+    <section id="lists">
+        <h2>Lists Section</h2>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Plan the layout</li>
+            <li>Write the Html structure</li>
+            <li>Style with CSS</li>
+        </ol>
+        <h3>Definiton List</h3>
+        <dl>
+            <dt>HTML</dt>
+         <dd>Markup language for structuring web pages.</dd>
+         <dt>CSS</dt>
+         <dd>Style sheet language for designing the look of web pages.</dd>
+
+        </dl>
+
+    </section>
+
+    <hr>
+    <section id="tables">  
+        <h2>Table Section</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Course 2</th>
+                    <th>course 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>3 weeks </td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>4 weeks</td>
+                    <td>intermidate</td>
+                </tr>
+                <tr>
+                    <td>React.js</td>
+                    <td>5 weeks </td>
+                    <td>Advanced</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </section>
+    <hr>
+    <section id="Media">
+        <h2>Media Section</h2>
+        <h3>Image</h3>
+        <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?fm=jpg&q=60&w=3000&ixlib=
+        rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMHJlY2lwZX
+        xlbnwwfHwwfHx8MA%3D%3D" alt="Recipe" width="200px" height="200px">
+      <h3>Audio</h3>
+     <audio controls> 
+      <source src="sample-audio.mp3" type="audio/mpeg">
+      Your browser doesn't support the audio element
+     </audio>
+      <h3>Video</h3>
+      <video width="400" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser doesn't support the video element.
+      </video>
+    </section>
+    <hr>
+<section id="form">
+    <h2> Contact Form</h2>
+    <form action="#" method="post">
+     <label for="name">Full Name</label> 
+     <input type="text" name="fullname" id="name" placeholder="Enter your FUll name ">  
+     <label for="email">Email</label>
+     <input type="email" name="email" id="email" placeholder="Enter your Email">
+     <label for="phone">Phone Number </label>
+     <input type="tel" id="phone" name="phone" placeholder="+251945873434" pattern="^\+?[0-9]{10,15}$" title="Enter a valid phone number with country code"><br><br>
+     
+      <label for="subject">Subject</label> <br>
+      <select name="subject" id="subject" required>
+        <option value="">--Choose a subject</option>
+        <option value="feedback">Feedback</option>
+        <option value="inquiry">Inquiry</option>
+        <option value="support">Support</option>
+      </select> <br><br>
+      <label for="message"> Message </label>
+      <textarea name="message" id="message" rows="5" placeholder="type your message here" required minlength="10"></textarea> <br><br>
+      <label>
+        <input type="checkbox" name="Subscribe" > Subscribe to News Letter
+      </label>
+      <button type="submit">Submit</button>
+</section>
+<hr>
+<footer>
+    <p>&copy; 2025 Web Showcase. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
